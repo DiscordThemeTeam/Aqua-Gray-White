@@ -1,0 +1,62 @@
+/**
+    * @name Aqua-Gray-White
+    * @version 1.0
+    * @description Aqua-Gray-White theme based off of the GitHub Dark theme.
+    * @author ggrolton123/dragon_potion
+    * @source https://github.com/DiscordThemeTeam/Aqua-Gray-White
+    * @website https://github.com/DiscordThemeTeamBetter
+**/
+
+:root {
+	--background-primary: #242424;
+	--background-secondary: #232323;
+	--background-floating: #1d1d1d;
+	--background-secondary-alt: var(--background-floating);
+	--background-tertiary: #323232;
+	--background-accent: #242424;
+	--userarea-background: var(--background-tertiary);
+	--header-primary: rgb(255, 98, 98);
+	--header-secondary: rgb(255, 255, 255);
+	--elevation-low: 0 1px 0 rgba(40, 40, 50, 0.2),
+		0 1.5px 0 rgba(60, 60, 70, 0.05), 0 2px 0 rgba(40, 40, 50, 0.05);
+	--elevation-high: 0 8px 16px rgba(0, 0, 0, 0.24);
+	--channels-default: #ffffff;
+	--channeltextarea-background: rgb(17, 17, 17);
+	--voice-color: var(--brand-experiment);
+	--guild-header-text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+	--activity-card-background: #0f0f0f;
+	--interactive-normal: rgb(139, 148, 158);
+	--interactive-hover: #00b9e8;
+	--interactive-active: #00b9e8;
+	--interactive-muted: #424242;
+	--background-modifier-hover: rgba(33, 38, 45, 0.26);
+	--background-modifier-active: rgba(33, 38, 45, 0.44);
+	--background-modifier-selected: rgba(33, 38, 45, 0.52);
+	--background-modifier-accent: rgb(33, 38, 45);
+	--text-link: rgb(88, 166, 255);
+	--text-normal: rgb(253, 254, 255);
+	--text-muted: rgb(137, 150, 164);
+	--deprecated-panel-background: #2a2f29;
+	--deprecated-card-bg: var(--background-secondary);
+	--deprecated-card-editable-bg: var(--background-secondary);
+	--deprecated-store-bg: #36393f;
+	--deprecated-quickswitcher-input-background: #72767d;
+	--deprecated-quickswitcher-input-placeholder: hsla(0, 0%, 100%, 0.3);
+	--deprecated-text-input-bg: var(--channeltextarea-background);
+	--deprecated-text-input-border: var(--border-color);
+	--deprecated-text-input-border-hover: #040405;
+	--deprecated-text-input-border-disabled: #202225;
+	--deprecated-text-input-prefix: #dcddde;
+	--background-accent-1: rgb(15, 15, 15, 0.1);
+	--background-accent-3: rgb(15, 15, 15, 0.3);
+	--background-floating-2: rgba(0, 0, 0, 0.2);
+	--border: 1px solid rgb(48, 54, 61);
+	--border-color: rgb(48, 54, 61);
+	--blurple-border: 1px solid rgb(31, 47, 71);
+	--border-radius: 5px;
+	--divide-color: var(--brand-experiment);
+	--brand-experiment: rgb(67, 111, 233);
+	--deprecated-quickswitcher-input-background: var(
+		--channeltextarea-background
+	);
+}
